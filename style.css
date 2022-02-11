@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+
+:root{
+    --corfundo:#008080;
+    --amarelo:#ffe66d;
+    --preto:#343434;
+    --branco:#f7fff7;
+    --roxo: #2f3061;
+    --roxodegrade: #2f30617e;
+
+}
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--corfundo);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--branco);
+}
+main{
+    background-color: var(--branco);
+    border-radius: 10px;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 5px auto;
+    padding: 10px;
+    color:var(--corfundo);
+}
+h1{
+    margin: 0 auto;
+    text-align: center;
+}
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+
+}
+.form input{
+    font-size: 12pt;
+    padding: 5px;
+    margin: 10px;
+}
+.task{
+    width: 100%;
+}
+table{
+    width: 90%;
+    margin: 20px auto;
+    border: 2px solid var(--preto);
+}
+td{
+    text-align: center;
+    min-width: 100px;
+    max-width: 110px;
+    border: 1px solid rgba(0, 0, 0, 0.541);
+    padding: 3px;
+    font-size: 1.1em;
+
+}
+
+.action {
+    font-size: 0.8em;
+    color: var(--roxo);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.delete{
+    text-align: center;
+    background-color: transparent;
+    margin-left: 5px;
+    color: red;
+    border-style: none;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 12pt;
+}
+.delete:hover{
+    border-radius: 50%;
+    background-color: red;
+    color:var(--branco);
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+    color: #343434;
+}
+li{
+    border-bottom: 1px solid #8a8787d0;
+    padding: 3px;
+}
+.subtitle{
+    color: var(--preto);
+    padding: 30px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+.todo{
+    background-color: lightgreen;
+}
+.shedule{
+    background-color: lightblue;
+}
+.delegate{
+    background-color: rgb(248, 248, 142);
+}
+.eliminate{
+    background-color: lightpink;
+}
+.create{
+    width: 70%;
+    border: none;
+    background-color: var(--roxo);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12pt;
+    color: #f7fff7;
+    cursor: pointer;
+}
+.create:hover{
+    background-color: #008080;
+
+}
+.check{
+    height: 15px;
+    width: 15px;
+}

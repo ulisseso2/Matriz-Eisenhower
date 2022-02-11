@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz de Eisenhower</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Prioridades - Matriz de Eisenhower</h1>
+    </header>
+    <main>
+        <h2 class="saud"></h2>
+        <h2>Crie suas tarefas</h2>
+        <form class="form" method="get">
+
+            <input class="task"type="text" name='tasks' placeholder="qual é a tarefa?">
+            <label for="important">
+                É Importante?
+                <input class="check"type="checkbox" name="important" >
+            </label>
+            <label for="urgent">
+                É Urgente?
+                <input class="check"type="checkbox" name="urgent">
+            </label>
+            <button class="create" type="submit">criar</button>
+        </form>
+
+        <table>
+            <tr>
+                <td class="base"> &nbsp; </td>
+                <td class= "urgent"> Urgente </td>
+                <td class="not_urgent">Não Urgente</td>
+            </tr>
+            <tr class="important">
+                <td>Importante</td>
+                <td>
+                    <ul class="todo">
+                        <li class="action">Faça</li>
+                    </ul>
+                </td>
+
+                <td>
+                    <ul class="shedule">
+                        <li class="action">Agende</li>
+                    </ul>
+                </td>
+
+            </tr>
+            <tr class="not_important">
+                <td>Não importante</td>
+                <td>
+                    <ul class="delegate">
+                        <li class="action">Delegue</li>
+                    </ul>
+                </td>
+
+                <td>
+                    <ul class="eliminate">
+                        <li class="action">Ignore</li>
+                    </ul>
+                </td>
+
+            </tr>
+        </table>
+        <div class="subtitle">
+            <h3>Como funciona a Matriz de Eisenhower?
+            </h3>
+            <p>Você deve preencher suas tarefas e definir se são Importantes e/ou urgentes</p>
+            <p>É fundamental que seja muito criterioso na classificação para que consiga realmente priorizar suas demandas!</p>
+            <p> <strong>Tarefas urgentes e importantes</strong>: prioridade máxima, devem ser feitas o mais rápido possível;</p>
+            <p><strong>Tarefas urgentes, mas não importantes:</strong> Devem ser delegadas ou automatizadas.</p>
+            <p><strong>Tarefas importante, mas não urgente:</strong> não devem ser procrastinadas, mas podem ser feitas após as urgentes;</p>
+            <p><strong>Tarefas nem importante, nem urgente:</strong> Podem ser desprezadas ou feitas em brechas da rotina;</p> <br>
+            <p>A Matriz de Eisenhower é uma das técnicas de priorização de tarefas mais conhecidas e aplicadas. O nome da ferramenta é uma homenagem ao general americano Dwight Eisenhower, reconhecido como um grande estrategista militar, além de político e diplomata influente. <br>
+                De acordo com ele, existem basicamente dois tipos de tarefas — as urgentes, que têm prazo apertado e não podem ser adiadas; e as importantes, que mesmo que não precisem de resolução imediata, merecem atenção por serem as que mais trazem resultados. <br>Diante disso, separamos as tarefas em quatro quadrantes de natureza dupla, montando um planejamento estratégico para a execução de cada categoria.</p>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

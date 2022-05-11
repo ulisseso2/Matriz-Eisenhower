@@ -1,4 +1,8 @@
 MATRIZ DE EISENHOWER
+Projeto feito no início do estudo de Javascript.
+
+Durante o estudo de uma lista de tarefas, pensei em incrementá-la e colocar condições que alocassem em diferentes listas.
+Assim criei esse projeto baseado na Matriz de Eisenhower
 
 Ferramenta de gestão de tarefas
 Elementos simples apenas HTML, CSS e Javascript
